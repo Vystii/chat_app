@@ -1,15 +1,17 @@
 {
-  "name": "vystii/impact",
-  "description": "Module de chat drupal",
-  "type": "drupal-module-custom",
-  "require": {
-    "stephane888/formatage_models": "dev-3x | ^3.1"
-  },
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "vystii",
-      "email": "ngahabanda@gmail.com"
-    }
-  ]
+    "name": "vystii/chat_app",
+    "description": "drupal module for chat",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vystii\\ChatApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vystii",
+            "email": "ngahabanda@gmail.com"
+        }
+    ],
+    "require": {}
 }
