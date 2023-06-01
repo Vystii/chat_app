@@ -1,17 +1,17 @@
 {
-    "name": "vystii/chat_app",
-    "description": "drupal module for chat",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Vystii\\ChatApp\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "vystii",
-            "email": "ngahabanda@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "vystii/chat_app",
+  "description": "drupal module for chat",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vystii\\ChatApp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "vystii",
+      "email": "ngahabanda@gmail.com"
+    }
+  ],
+  "require": {}
 }
