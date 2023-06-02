@@ -1,7 +1,7 @@
 name: chat_app
 type: module
 description: -- Module de chat drupal--
-package: custom
+package: Custom
 core: 8.x
 core_version_requirement: ^8 || ^9
 dependencies:
