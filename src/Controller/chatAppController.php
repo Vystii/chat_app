@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\example\Controller;
+namespace Drupal\chat_app\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 

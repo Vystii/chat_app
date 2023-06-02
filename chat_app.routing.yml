@@ -5,3 +5,11 @@ example.content:
     _title: "welcome to the chat"
   requirements:
     _permission: "access content"
+
+chat.test:
+  path: "/chat_app/push"
+  defaults:
+    _controller: '\Drupal\chat_app\Controller\updateController::publish'
+    _title: "welcome to the chat"
+  requirements:
+    _permission: "access content"

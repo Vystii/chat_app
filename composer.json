@@ -2,6 +2,7 @@
   "name": "vystii/chat_app",
   "description": "drupal module for chat",
   "license": "MIT",
+  "type": "drupal-module-custom",
   "autoload": {
     "psr-4": {
       "Vystii\\ChatApp\\": "src/"
