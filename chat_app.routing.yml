@@ -1,15 +1,7 @@
-example.content:
-  path: "/chat_app"
-  defaults:
-    _controller: '\Drupal\chat_app\Controller\chatAppController::index'
-    _title: "welcome to the chat"
-  requirements:
-    _permission: "access content"
-
 chat.test:
-  path: "/chat_app/push"
+  path: "/chat_app/run"
   defaults:
-    _controller: '\Drupal\chat_app\Controller\updateController::publish'
+    _controller: '\Drupal\chat_app\Controller\chatAppController::test'
     _title: "welcome to the chat"
   requirements:
     _permission: "access content"

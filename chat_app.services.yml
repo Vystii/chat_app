@@ -1,0 +1,3 @@
+services:
+  chat_app.manager:
+    class: Drupal\chat_app\Service\chatAppService
