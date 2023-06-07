@@ -14,5 +14,7 @@
       "email": "ngahabanda@gmail.com"
     }
   ],
-  "require": {}
+  "require": {
+    "cboden/ratchet": "^0.4.4"
+  }
 }

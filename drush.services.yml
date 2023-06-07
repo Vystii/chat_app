@@ -1,0 +1,5 @@
+services:
+  chat_app.commands:
+    class: \Drupal\chat_app\Commands\chatAppDrushCommands
+    tags:
+      - { name: drush.command }
